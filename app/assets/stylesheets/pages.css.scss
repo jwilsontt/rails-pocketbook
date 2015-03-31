@@ -1,0 +1,59 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg');
+}
+
+.header {
+  
+}
+
+.header .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+img {
+    
+}
+.container {
+  width: 940px;
+}
+
+
+.footer .container{
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ffffff;
+}
+
+.form-control {
+    width: 75%;
+}
+
+.form-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #ffffff;
+}
+
+form {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 70%;
+}
