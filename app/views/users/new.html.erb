@@ -1,0 +1,27 @@
+<div class ="main">
+    <div class ="container">
+        <div class ="row">
+            <div class ="col-md-7">
+                <h1>Join Pocketbook</h1>
+                
+                <%= form_for (@user) do |f| %>
+                    <div class ="form-group">
+                        <p> <%= f.label :name %> </p>
+                       <p> <%= f.text_field :name, class: 'form-control' %></p>
+                    </div>
+                    <div class ="form-group">
+                        <p> <%= f.label :email %> </p>
+                        <p> <%= f.email_field :email, class: 'form-control' %> </p>
+                    </div>
+                    <div class ="form-group">
+                       <p> <%= f.label :password %> </p>
+                        <p> <%= f.password_field :password, class: 'form-control' %> </p>
+                    </div>
+                    
+                    <p><%= f.submit "Create account", class: "btn" %></p>
+                <% end %>
+                
+            </div>
+        </div>
+    </div>
+</div>
