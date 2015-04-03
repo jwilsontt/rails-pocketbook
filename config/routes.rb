@@ -7,11 +7,15 @@ Rails.application.routes.draw do
 
 
 get '/' => 'users#new'
+get '/users/new' => 'users#new'
 get '/contact' => 'pages#contact'
 get '/help' => 'pages#help'
 get '/about' => 'pages#about'
+get '/login' => 'sessions#new'
+get '/logout' => 'sessions#destroy'
 
 post '/users' => 'users#create'
+post '/login' => 'sessions#create'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
